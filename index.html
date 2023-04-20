@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Démineur</title>
+        <link rel="stylesheet" href="bombe.css">
+        <script src="bombe.js"></script>
+    </head>
+
+    <body  class="myphoto" >
+        <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="help.html">Help?</a></li>
+        </ul>
+        <div> <h1 class="ree"></h1>
+        <h1>💣  : <span id="mines-count">0</span></h1>
+        <label for="pet-select">Choisissez le niveau:</label>
+
+        <select name="pets" id="pet-select" onchange="level()" >
+         <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+        </select>
+
+<div style="margin-top: -8px;" >
+        <br>
+        <button id="face"  onclick="window.location.reload();">😄</button>
+        <p id="demo">0</p>
+    </div>
+</div>
+        <div style="margin-left:85% ; margin-top: -100px; ">
+        <table id="customers">
+        <tr>
+    <th>Nom</th>
+    <th>Prenom</th>
+    <th>Score(s)</th>
+  <tr>
+  <td>Bellala</td>
+    <td>Aymen</td>
+    <td>25</td>
+  </tr>
+<tr>
+  <td>BenAlaya</td>
+    <td>Farouk</td>
+    <td>35</td>
+  </tr>
+  <tr>
+  <td>michel</td>
+    <td>ilao</td>
+    <td>155</td>
+  </tr>
+   <tr>
+  <td>abedraouf</td>
+    <td>chebahi</td>
+    <td>80</td>
+  </tr>
+   <tr>
+  <td>samir</td>
+    <td>sankouh</td>
+    <td>98  </td>
+  </tr>
+</table>
+</div >
+
+       <div>
+        <div id="board"> </div>
+        <br>
+        <button id="flag-button">🚩</button>
+</div>
+
+<footer class="footer">
+  Copyright © 2023
+</footer>
+        
+    </body>
+</html>

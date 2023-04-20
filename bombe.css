@@ -1,0 +1,185 @@
+body {  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+}
+#pet-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.myimg{
+  background-image: url(home.jpg);
+  background-repeat:no-repeat ;
+  background-size: 1950px 950px; 
+}
+
+.myphoto{
+  background-image: url(background.jpg);
+  background-repeat:no-repeat ;
+  background-size: 1950px 950px; 
+}
+
+#board {
+   width: 570px;
+    height: 579px;
+    border: 10px solid black;
+    background-color: rgba(158, 236, 250, 0.884);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -150px;
+    box-shadow:  15px 5px 5px rgb(128, 128, 128) ;
+
+
+}
+
+ul {
+  list-style-type: none;
+  margin-top: -8px;
+  margin-left: -8px;
+  padding: auto;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+   color: white;
+  margin-left: 400px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+li a:focus {
+    background-color: red;
+}
+#board div {
+    width: 55px;
+    height: 56px;
+    border: 1px solid whitesmoke;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked {
+    background-color: rgba(89, 112, 108, 0.438) ;
+}
+
+.x1 {
+    color: blue;
+}
+
+.x2 {
+    color: green;
+}
+
+
+.x3 {
+    color: red;
+}
+
+.x4 {
+    color: navy;
+}
+
+.x5 {
+    color: brown;
+}
+
+.x6 {
+    color: teal;
+}
+
+.x7 {
+    color: black;
+}
+
+.x8 {
+    color: gray;
+}
+#button2 {
+    background-color: white; 
+    color: gray; 
+    border: 2px solid black;
+  font-size: 25px;
+  
+}
+#button2:hover {
+  background-color: black;
+  color: white;
+}
+.header {
+   margin-top: 15%;
+  padding: 60px;
+  text-align: center;
+  background: #D5DADA;
+  color: black;
+  box-shadow:  15px 5px 5px gray ;
+  font-size: 30px;
+  opacity: 0.9;
+  border-style: solid;
+  display: flex;
+}
+#face{
+    /* width: 100px;*/ 
+    height: 35px;
+    font-size: 20px;
+    background-color: lightgray;
+    border-color: black;
+
+
+}
+#customers td, #customers th {
+    margin-bottom: 50px;
+  border: 1px solid #fff;
+  padding: 8px;
+
+
+}
+
+
+#customers tr {
+    background-color: white;
+}
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #303433;
+  color: white;
+}
+
+#flag-button {
+   /* width: 100px;*/
+    height: 50px;
+    font-size: 30px;
+    background-color: lightgray;
+    border-color: black ;
+}
+
+
+
